@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.heading {
+    background-color:#598392;
+    color: #E0E1DD;
+    height: 30vh;
+    display: flex;
+    padding: 2rem;
+}
+
+#heading-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    flex: 1;
+}
+
+#heading-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 1rem;
+}
+
+#heading-logo img {
+    height: 28vh;
+}
+
+.navbar {
+    background-color: #0D1B2A;
+    height: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar>a {
+    color:#E0E1DD;
+    text-decoration: none;
+}
+
+main {
+    background-color: #d8e2dc;
+    padding: 0.5rem;
+}
+
+#about, #schedule, #theme {
+    background-color: #1B263B;
+    color:#E0E1DD;
+    margin: 1rem 0.5rem 1rem 0.5rem;
+    padding: 0.75rem;
+    border-radius: 10px;
+    list-style-position: inside;
+}
+
+.head {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.body {
+    font-size: 1.5rem;
+    font-weight: 50;
+}
+
+#schedule-body {
+    list-style-type: none;
+}
+
+#register {
+    background-color: #1B263B;
+    color:#E0E1DD;
+    margin: 1rem 0.5rem 1rem 0.5rem;
+    padding: 0.75rem 0.75rem 1rem 0.75rem;
+    border-radius: 10px;
+    
+}
+
+#register-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+.form {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#register p {
+    margin-bottom: 1rem;
+}
+
+input[type="text"] {
+    height: 2rem;
+    font-size: 1rem;
+    max-width: max-content;
+}
+
+input[type="radio"] {
+    transform: scale(1.5); /* Adjust the scale value to increase the size */
+    margin-right: 0.5rem; /* Optional: Add some margin for better spacing */
+}
+
+.radio-box {
+    display: flex;
+    align-items: center;
+}
+
+input[type="submit"] {
+    height: 2.5rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#submit {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #000814;
+    color: #E0E1DD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    height: 15vh;
+}
+
+#website a {
+    color: #E0E1DD;
+
+}
+
+#contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5rem;
+}
